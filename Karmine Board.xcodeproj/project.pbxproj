@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAA44CBC2A4318C700F92607 /* Karmine_BoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA44CBB2A4318C700F92607 /* Karmine_BoardApp.swift */; };
+		AAA44CBE2A4318C700F92607 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA44CBD2A4318C700F92607 /* ContentView.swift */; };
+		AAA44CC02A4318C900F92607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA44CBF2A4318C900F92607 /* Assets.xcassets */; };
+		AAA44CC42A4318C900F92607 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA44CC32A4318C900F92607 /* Preview Assets.xcassets */; };
+		AAA44CCE2A4318C900F92607 /* Karmine_BoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA44CCD2A4318C900F92607 /* Karmine_BoardTests.swift */; };
+		AAA44CD82A4318C900F92607 /* Karmine_BoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA44CD72A4318C900F92607 /* Karmine_BoardUITests.swift */; };
+		AAA44CDA2A4318C900F92607 /* Karmine_BoardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA44CD92A4318C900F92607 /* Karmine_BoardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAA44CCA2A4318C900F92607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA44CB02A4318C700F92607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA44CB72A4318C700F92607;
+			remoteInfo = "Karmine Board";
+		};
+		AAA44CD42A4318C900F92607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA44CB02A4318C700F92607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA44CB72A4318C700F92607;
+			remoteInfo = "Karmine Board";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAA44CB82A4318C700F92607 /* Karmine Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Karmine Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA44CBB2A4318C700F92607 /* Karmine_BoardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karmine_BoardApp.swift; sourceTree = "<group>"; };
+		AAA44CBD2A4318C700F92607 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AAA44CBF2A4318C900F92607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAA44CC12A4318C900F92607 /* Karmine_Board.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Karmine_Board.entitlements; sourceTree = "<group>"; };
+		AAA44CC32A4318C900F92607 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAA44CC92A4318C900F92607 /* Karmine BoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Karmine BoardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA44CCD2A4318C900F92607 /* Karmine_BoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karmine_BoardTests.swift; sourceTree = "<group>"; };
+		AAA44CD32A4318C900F92607 /* Karmine BoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Karmine BoardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA44CD72A4318C900F92607 /* Karmine_BoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karmine_BoardUITests.swift; sourceTree = "<group>"; };
+		AAA44CD92A4318C900F92607 /* Karmine_BoardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karmine_BoardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAA44CB52A4318C700F92607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA44CC62A4318C900F92607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA44CD02A4318C900F92607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAA44CAF2A4318C700F92607 = {
+			isa = PBXGroup;
+			children = (
+				AAA44CBA2A4318C700F92607 /* Karmine Board */,
+				AAA44CCC2A4318C900F92607 /* Karmine BoardTests */,
+				AAA44CD62A4318C900F92607 /* Karmine BoardUITests */,
+				AAA44CB92A4318C700F92607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAA44CB92A4318C700F92607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAA44CB82A4318C700F92607 /* Karmine Board.app */,
+				AAA44CC92A4318C900F92607 /* Karmine BoardTests.xctest */,
+				AAA44CD32A4318C900F92607 /* Karmine BoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAA44CBA2A4318C700F92607 /* Karmine Board */ = {
+			isa = PBXGroup;
+			children = (
+				AAA44CBB2A4318C700F92607 /* Karmine_BoardApp.swift */,
+				AAA44CBD2A4318C700F92607 /* ContentView.swift */,
+				AAA44CBF2A4318C900F92607 /* Assets.xcassets */,
+				AAA44CC12A4318C900F92607 /* Karmine_Board.entitlements */,
+				AAA44CC22A4318C900F92607 /* Preview Content */,
+			);
+			path = "Karmine Board";
+			sourceTree = "<group>";
+		};
+		AAA44CC22A4318C900F92607 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AAA44CC32A4318C900F92607 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAA44CCC2A4318C900F92607 /* Karmine BoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAA44CCD2A4318C900F92607 /* Karmine_BoardTests.swift */,
+			);
+			path = "Karmine BoardTests";
+			sourceTree = "<group>";
+		};
+		AAA44CD62A4318C900F92607 /* Karmine BoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAA44CD72A4318C900F92607 /* Karmine_BoardUITests.swift */,
+				AAA44CD92A4318C900F92607 /* Karmine_BoardUITestsLaunchTests.swift */,
+			);
+			path = "Karmine BoardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAA44CB72A4318C700F92607 /* Karmine Board */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA44CDD2A4318C900F92607 /* Build configuration list for PBXNativeTarget "Karmine Board" */;
+			buildPhases = (
+				AAA44CB42A4318C700F92607 /* Sources */,
+				AAA44CB52A4318C700F92607 /* Frameworks */,
+				AAA44CB62A4318C700F92607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Karmine Board";
+			productName = "Karmine Board";
+			productReference = AAA44CB82A4318C700F92607 /* Karmine Board.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAA44CC82A4318C900F92607 /* Karmine BoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA44CE02A4318C900F92607 /* Build configuration list for PBXNativeTarget "Karmine BoardTests" */;
+			buildPhases = (
+				AAA44CC52A4318C900F92607 /* Sources */,
+				AAA44CC62A4318C900F92607 /* Frameworks */,
+				AAA44CC72A4318C900F92607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAA44CCB2A4318C900F92607 /* PBXTargetDependency */,
+			);
+			name = "Karmine BoardTests";
+			productName = "Karmine BoardTests";
+			productReference = AAA44CC92A4318C900F92607 /* Karmine BoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAA44CD22A4318C900F92607 /* Karmine BoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA44CE32A4318C900F92607 /* Build configuration list for PBXNativeTarget "Karmine BoardUITests" */;
+			buildPhases = (
+				AAA44CCF2A4318C900F92607 /* Sources */,
+				AAA44CD02A4318C900F92607 /* Frameworks */,
+				AAA44CD12A4318C900F92607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAA44CD52A4318C900F92607 /* PBXTargetDependency */,
+			);
+			name = "Karmine BoardUITests";
+			productName = "Karmine BoardUITests";
+			productReference = AAA44CD32A4318C900F92607 /* Karmine BoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAA44CB02A4318C700F92607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AAA44CB72A4318C700F92607 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AAA44CC82A4318C900F92607 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AAA44CB72A4318C700F92607;
+					};
+					AAA44CD22A4318C900F92607 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AAA44CB72A4318C700F92607;
+					};
+				};
+			};
+			buildConfigurationList = AAA44CB32A4318C700F92607 /* Build configuration list for PBXProject "Karmine Board" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAA44CAF2A4318C700F92607;
+			productRefGroup = AAA44CB92A4318C700F92607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAA44CB72A4318C700F92607 /* Karmine Board */,
+				AAA44CC82A4318C900F92607 /* Karmine BoardTests */,
+				AAA44CD22A4318C900F92607 /* Karmine BoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAA44CB62A4318C700F92607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA44CC42A4318C900F92607 /* Preview Assets.xcassets in Resources */,
+				AAA44CC02A4318C900F92607 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA44CC72A4318C900F92607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA44CD12A4318C900F92607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAA44CB42A4318C700F92607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA44CBE2A4318C700F92607 /* ContentView.swift in Sources */,
+				AAA44CBC2A4318C700F92607 /* Karmine_BoardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA44CC52A4318C900F92607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA44CCE2A4318C900F92607 /* Karmine_BoardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA44CCF2A4318C900F92607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA44CD82A4318C900F92607 /* Karmine_BoardUITests.swift in Sources */,
+				AAA44CDA2A4318C900F92607 /* Karmine_BoardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAA44CCB2A4318C900F92607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA44CB72A4318C700F92607 /* Karmine Board */;
+			targetProxy = AAA44CCA2A4318C900F92607 /* PBXContainerItemProxy */;
+		};
+		AAA44CD52A4318C900F92607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA44CB72A4318C700F92607 /* Karmine Board */;
+			targetProxy = AAA44CD42A4318C900F92607 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AAA44CDB2A4318C900F92607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAA44CDC2A4318C900F92607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AAA44CDE2A4318C900F92607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Karmine Board/Karmine_Board.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Karmine Board/Preview Content\"";
+				DEVELOPMENT_TEAM = P7Y6QPPWDD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bilelbouricha.Karmine-Board";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAA44CDF2A4318C900F92607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Karmine Board/Karmine_Board.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Karmine Board/Preview Content\"";
+				DEVELOPMENT_TEAM = P7Y6QPPWDD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bilelbouricha.Karmine-Board";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAA44CE12A4318C900F92607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Y6QPPWDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bilelbouricha.Karmine-BoardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karmine Board.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Karmine Board";
+			};
+			name = Debug;
+		};
+		AAA44CE22A4318C900F92607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Y6QPPWDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bilelbouricha.Karmine-BoardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karmine Board.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Karmine Board";
+			};
+			name = Release;
+		};
+		AAA44CE42A4318C900F92607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Y6QPPWDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bilelbouricha.Karmine-BoardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Karmine Board";
+			};
+			name = Debug;
+		};
+		AAA44CE52A4318C900F92607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Y6QPPWDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bilelbouricha.Karmine-BoardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Karmine Board";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAA44CB32A4318C700F92607 /* Build configuration list for PBXProject "Karmine Board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA44CDB2A4318C900F92607 /* Debug */,
+				AAA44CDC2A4318C900F92607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA44CDD2A4318C900F92607 /* Build configuration list for PBXNativeTarget "Karmine Board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA44CDE2A4318C900F92607 /* Debug */,
+				AAA44CDF2A4318C900F92607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA44CE02A4318C900F92607 /* Build configuration list for PBXNativeTarget "Karmine BoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA44CE12A4318C900F92607 /* Debug */,
+				AAA44CE22A4318C900F92607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA44CE32A4318C900F92607 /* Build configuration list for PBXNativeTarget "Karmine BoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA44CE42A4318C900F92607 /* Debug */,
+				AAA44CE52A4318C900F92607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAA44CB02A4318C700F92607 /* Project object */;
+}
