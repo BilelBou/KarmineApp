@@ -8,11 +8,21 @@
 import SwiftUI
 
 struct GamesTabView: View {
+    let game: GameTab
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(game.image)
+            .resizable()
+            .scaledToFit()
+            .frame(width: 30)
+            .padding(.horizontal, 30)
+            .padding(.vertical, 4)
     }
 }
 
 #Preview {
-    GamesTabView()
+    HStack {
+        ForEach(Karmine_Board.GameTab.allCases, id: \.rawValue) { game in
+            GamesTabView(game: game)
+        }
+    }
 }

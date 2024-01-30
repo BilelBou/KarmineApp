@@ -6,3 +6,20 @@
 //
 
 import Foundation
+
+enum GameTab: String, CaseIterable {
+    case leagueOfLegend = "LoL"
+    case valorant = "Valorant"
+    case rocketLeague = "Rocket League"
+
+    var image: String {
+        switch self {
+        case .leagueOfLegend:
+            return "lol-illustration"
+        case .valorant:
+            return "valo-illustration"
+        case .rocketLeague:
+            return "rl-illustration"
+        }
+    }
+}

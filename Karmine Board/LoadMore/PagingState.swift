@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+public enum PagingState {
+    case loadingFirstPage
+    case loaded
+    case loadingNextPage
+}

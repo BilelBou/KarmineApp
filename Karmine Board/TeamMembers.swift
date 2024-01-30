@@ -8,13 +8,30 @@
 import SwiftUI
 
 struct TeamMembers: View {
+    let players: [Player]
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ForEach(players) { player in
+            HStack {
+                AsyncImage(url: URL(string: player.imageURL ?? "")) { image in
+                    image
+                        .resizable()
+                        .scaledToFill()
+                } placeholder: {
+                    ProgressView()
+                }
+                .frame(width: 70, height: 70)
+                Text(player.slug)
+            }
+        }
+        .padding()
     }
 }
 
 struct TeamMembers_Previews: PreviewProvider {
     static var previews: some View {
-        TeamMembers()
+        TeamMembers(players: [Player(age: 20, birthday: "AAA", firstName: "Bilel", id: 123, imageURL: "", lastName: "Bouricha", modifiedAt: "", name: "KC BIBO", nationality: Location(rawValue: "FR")!, role: "Support", slug: "")])
     }
 }
+
+extension Player: Identifiable {}

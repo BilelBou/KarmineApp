@@ -10,23 +10,15 @@ import Combine
 
 extension URLComponents {
 
-    static var karmineTeams: Self {
-        Self(path: "/teams")
-    }
-
-    static func karmineTeamDetail() -> Self {
-        let queryItems: [URLQueryItem] = [.init(name: "filter[finished]", value: "true")]
-        return Self(path: "/teams/128268/matches", queryItems: queryItems)
+    static func karmineHistoryMatchDetail(page: String = "1") -> Self {
+        let queryItems: [URLQueryItem] = [.init(name: "search[slug]", value: "karmine-corp"), .init(name: "page", value: page), .init(name: "per_page", value: "50")]
+        return Self(path: "/matches/past", queryItems: queryItems)
     }
 }
 
 extension URLRequest {
-    static var leagues: Self {
-        Self(components: .karmineTeams)
-    }
-
-    static func karmineTeamDetail(acessToken: String) -> Self {
-        Self(components: .karmineTeamDetail())
+    static func karmineHistoryRequest(acessToken: String, page: String = "1") -> Self {
+        Self(components: .karmineHistoryMatchDetail(page: page))
             .add(httpMethod: .get)
             .add(headers: [
                 "authorization": "Bearer \(acessToken)"
@@ -34,15 +26,10 @@ extension URLRequest {
     }
 }
 
-final class HistoryViewModel: ObservableObject {
-    let request: URLRequest = .karmineTeamDetail(acessToken: "9acau15uxBEF2W_Qb4IcY8Lwgcs4tYCyuMzjFv1kLEGVd0Wu57g")
-    private var cancellable = Set<AnyCancellable>()
+final class HistoryViewModel: MatchesViewModel {
 
-    @Published var matches: [Match]?
-
-    func getKCorpLoLHistory() {
-        let responsePublisher = URLSession.shared.fetch(for: request, with: [Match].self)
-
+    override func getKCorpLoLHistory() {
+        let responsePublisher = URLSession.shared.fetch(for: leagueRequest, with: [Match].self)
 
         responsePublisher
             .receive(on: DispatchQueue.main)
@@ -50,7 +37,7 @@ final class HistoryViewModel: ObservableObject {
                 print(completion)
             } receiveValue: { response in
                 self.matches = response
-                print(response)
+                self.savedMatches = response
             }
             .store(in: &cancellable)
 

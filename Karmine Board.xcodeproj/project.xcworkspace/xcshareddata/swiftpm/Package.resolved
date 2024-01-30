@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "pandascore-api",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MatrixSenpai/pandascore-api",
+      "state" : {
+        "revision" : "cb75f0b5c6a537cc5357df4d210830a769519176",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift",
+      "state" : {
+        "revision" : "cce95dd704bc08cd3d69c087a05a6fc3118e2722",
+        "version" : "4.5.0"
+      }
+    },
+    {
+      "identity" : "swiftui-cached-async-image",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lorenzofiamingo/swiftui-cached-async-image",
+      "state" : {
+        "revision" : "467a3d17479887943ab917a379e62bbaff60ac8a",
+        "version" : "2.1.1"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -7,13 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA705D4D2A49937F002610CB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA705D4C2A49937F002610CB /* Colors.swift */; };
+		AA705D502A4994A0002610CB /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA705D4F2A4994A0002610CB /* CalendarViewModel.swift */; };
+		AA705D522A49B410002610CB /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA705D512A49B410002610CB /* CalendarView.swift */; };
+		AA705D552A49E310002610CB /* PageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA705D542A49E310002610CB /* PageInfo.swift */; };
+		AA705D572A49E322002610CB /* Pageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA705D562A49E322002610CB /* Pageable.swift */; };
+		AA705D592A49E383002610CB /* PagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA705D582A49E383002610CB /* PagingState.swift */; };
+		AA8A90812A46499B006C4804 /* DateStringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A90802A46499B006C4804 /* DateStringHelper.swift */; };
+		AA8A90842A464C63006C4804 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = AA8A90832A464C63006C4804 /* CachedAsyncImage */; };
+		AA8A90862A464DA8006C4804 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A90852A464DA8006C4804 /* Tab.swift */; };
+		AA8A908B2A464EA7006C4804 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A908A2A464EA7006C4804 /* HomeView.swift */; };
+		AA8A908D2A464EF3006C4804 /* ScrollOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A908C2A464EF3006C4804 /* ScrollOffset.swift */; };
+		AA8A908F2A464F0E006C4804 /* LinearInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A908E2A464F0E006C4804 /* LinearInterpolation.swift */; };
 		AAA44CBC2A4318C700F92607 /* Karmine_BoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA44CBB2A4318C700F92607 /* Karmine_BoardApp.swift */; };
-		AAA44CBE2A4318C700F92607 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA44CBD2A4318C700F92607 /* ContentView.swift */; };
 		AAA44CC02A4318C900F92607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA44CBF2A4318C900F92607 /* Assets.xcassets */; };
 		AAA44CC42A4318C900F92607 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA44CC32A4318C900F92607 /* Preview Assets.xcassets */; };
 		AAA44CCE2A4318C900F92607 /* Karmine_BoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA44CCD2A4318C900F92607 /* Karmine_BoardTests.swift */; };
 		AAA44CD82A4318C900F92607 /* Karmine_BoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA44CD72A4318C900F92607 /* Karmine_BoardUITests.swift */; };
 		AAA44CDA2A4318C900F92607 /* Karmine_BoardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA44CD92A4318C900F92607 /* Karmine_BoardUITestsLaunchTests.swift */; };
+		AAA44CE82A43193300F92607 /* PandaScoreAPI in Frameworks */ = {isa = PBXBuildFile; productRef = AAA44CE72A43193300F92607 /* PandaScoreAPI */; };
+		AAA44CEA2A43197A00F92607 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA44CE92A43197A00F92607 /* HistoryViewModel.swift */; };
+		AAA44CED2A43446800F92607 /* URLComponents + Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA44CEC2A43446800F92607 /* URLComponents + Init.swift */; };
+		AAA44CEF2A4347D400F92607 /* URLRequest + Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA44CEE2A4347D400F92607 /* URLRequest + Builder.swift */; };
+		AAA44CF12A4347ED00F92607 /* URLSession + Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA44CF02A4347ED00F92607 /* URLSession + Client.swift */; };
+		AAA44CF42A4385AA00F92607 /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA44CF32A4385AA00F92607 /* Teams.swift */; };
+		AAA44CF62A43984400F92607 /* TeamMembers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA44CF52A43984400F92607 /* TeamMembers.swift */; };
+		AAA44CF82A447C9500F92607 /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA44CF72A447C9500F92607 /* Games.swift */; };
+		AAA44CFB2A4486DA00F92607 /* HistoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA44CFA2A4486DA00F92607 /* HistoryItemView.swift */; };
+		AAA44CFE2A44892F00F92607 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA44CFD2A44892F00F92607 /* Color+Ext.swift */; };
+		AAF7739A2B4AD56F00BF95D7 /* MatchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF773992B4AD56F00BF95D7 /* MatchesViewModel.swift */; };
+		AAF7739D2B4AD61000BF95D7 /* GamesTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7739C2B4AD61000BF95D7 /* GamesTab.swift */; };
+		AAF7739F2B4AD86600BF95D7 /* GamesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7739E2B4AD86600BF95D7 /* GamesTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +58,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA705D4C2A49937F002610CB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		AA705D4F2A4994A0002610CB /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		AA705D512A49B410002610CB /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		AA705D542A49E310002610CB /* PageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageInfo.swift; sourceTree = "<group>"; };
+		AA705D562A49E322002610CB /* Pageable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pageable.swift; sourceTree = "<group>"; };
+		AA705D582A49E383002610CB /* PagingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingState.swift; sourceTree = "<group>"; };
+		AA8A90802A46499B006C4804 /* DateStringHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateStringHelper.swift; sourceTree = "<group>"; };
+		AA8A90852A464DA8006C4804 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		AA8A908A2A464EA7006C4804 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AA8A908C2A464EF3006C4804 /* ScrollOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollOffset.swift; sourceTree = "<group>"; };
+		AA8A908E2A464F0E006C4804 /* LinearInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearInterpolation.swift; sourceTree = "<group>"; };
 		AAA44CB82A4318C700F92607 /* Karmine Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Karmine Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA44CBB2A4318C700F92607 /* Karmine_BoardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karmine_BoardApp.swift; sourceTree = "<group>"; };
-		AAA44CBD2A4318C700F92607 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AAA44CBF2A4318C900F92607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAA44CC12A4318C900F92607 /* Karmine_Board.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Karmine_Board.entitlements; sourceTree = "<group>"; };
 		AAA44CC32A4318C900F92607 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +79,18 @@
 		AAA44CD32A4318C900F92607 /* Karmine BoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Karmine BoardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA44CD72A4318C900F92607 /* Karmine_BoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karmine_BoardUITests.swift; sourceTree = "<group>"; };
 		AAA44CD92A4318C900F92607 /* Karmine_BoardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karmine_BoardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAA44CE92A43197A00F92607 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		AAA44CEC2A43446800F92607 /* URLComponents + Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLComponents + Init.swift"; sourceTree = "<group>"; };
+		AAA44CEE2A4347D400F92607 /* URLRequest + Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest + Builder.swift"; sourceTree = "<group>"; };
+		AAA44CF02A4347ED00F92607 /* URLSession + Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession + Client.swift"; sourceTree = "<group>"; };
+		AAA44CF32A4385AA00F92607 /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
+		AAA44CF52A43984400F92607 /* TeamMembers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMembers.swift; sourceTree = "<group>"; };
+		AAA44CF72A447C9500F92607 /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		AAA44CFA2A4486DA00F92607 /* HistoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryItemView.swift; sourceTree = "<group>"; };
+		AAA44CFD2A44892F00F92607 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		AAF773992B4AD56F00BF95D7 /* MatchesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewModel.swift; sourceTree = "<group>"; };
+		AAF7739C2B4AD61000BF95D7 /* GamesTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesTab.swift; sourceTree = "<group>"; };
+		AAF7739E2B4AD86600BF95D7 /* GamesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA44CE82A43193300F92607 /* PandaScoreAPI in Frameworks */,
+				AA8A90842A464C63006C4804 /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +120,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA705D4E2A499497002610CB /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				AA705D4F2A4994A0002610CB /* CalendarViewModel.swift */,
+				AA705D512A49B410002610CB /* CalendarView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		AA705D532A49E304002610CB /* LoadMore */ = {
+			isa = PBXGroup;
+			children = (
+				AA705D542A49E310002610CB /* PageInfo.swift */,
+				AA705D562A49E322002610CB /* Pageable.swift */,
+				AA705D582A49E383002610CB /* PagingState.swift */,
+			);
+			path = LoadMore;
+			sourceTree = "<group>";
+		};
+		AA8A90872A464E96006C4804 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				AAF7739B2B4AD60600BF95D7 /* GamesTab */,
+				AA8A908A2A464EA7006C4804 /* HomeView.swift */,
+				AAF773992B4AD56F00BF95D7 /* MatchesViewModel.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
 		AAA44CAF2A4318C700F92607 = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +172,18 @@
 		AAA44CBA2A4318C700F92607 /* Karmine Board */ = {
 			isa = PBXGroup;
 			children = (
+				AA705D532A49E304002610CB /* LoadMore */,
+				AA705D4E2A499497002610CB /* Calendar */,
+				AA8A90872A464E96006C4804 /* HomeView */,
+				AAA44CFC2A44888500F92607 /* Helpers */,
+				AAA44CF92A44838D00F92607 /* History */,
+				AAA44CF22A43859600F92607 /* Models */,
+				AAA44CEB2A43446100F92607 /* API */,
 				AAA44CBB2A4318C700F92607 /* Karmine_BoardApp.swift */,
-				AAA44CBD2A4318C700F92607 /* ContentView.swift */,
 				AAA44CBF2A4318C900F92607 /* Assets.xcassets */,
 				AAA44CC12A4318C900F92607 /* Karmine_Board.entitlements */,
 				AAA44CC22A4318C900F92607 /* Preview Content */,
+				AAA44CF52A43984400F92607 /* TeamMembers.swift */,
 			);
 			path = "Karmine Board";
 			sourceTree = "<group>";
@@ -129,6 +213,56 @@
 			path = "Karmine BoardUITests";
 			sourceTree = "<group>";
 		};
+		AAA44CEB2A43446100F92607 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AAA44CEC2A43446800F92607 /* URLComponents + Init.swift */,
+				AAA44CEE2A4347D400F92607 /* URLRequest + Builder.swift */,
+				AAA44CF02A4347ED00F92607 /* URLSession + Client.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		AAA44CF22A43859600F92607 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAA44CF32A4385AA00F92607 /* Teams.swift */,
+				AAA44CF72A447C9500F92607 /* Games.swift */,
+				AA8A90852A464DA8006C4804 /* Tab.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AAA44CF92A44838D00F92607 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				AAA44CE92A43197A00F92607 /* HistoryViewModel.swift */,
+				AAA44CFA2A4486DA00F92607 /* HistoryItemView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		AAA44CFC2A44888500F92607 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AAA44CFD2A44892F00F92607 /* Color+Ext.swift */,
+				AA8A90802A46499B006C4804 /* DateStringHelper.swift */,
+				AA8A908C2A464EF3006C4804 /* ScrollOffset.swift */,
+				AA8A908E2A464F0E006C4804 /* LinearInterpolation.swift */,
+				AA705D4C2A49937F002610CB /* Colors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AAF7739B2B4AD60600BF95D7 /* GamesTab */ = {
+			isa = PBXGroup;
+			children = (
+				AAF7739C2B4AD61000BF95D7 /* GamesTab.swift */,
+				AAF7739E2B4AD86600BF95D7 /* GamesTabView.swift */,
+			);
+			path = GamesTab;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +279,10 @@
 			dependencies = (
 			);
 			name = "Karmine Board";
+			packageProductDependencies = (
+				AAA44CE72A43193300F92607 /* PandaScoreAPI */,
+				AA8A90832A464C63006C4804 /* CachedAsyncImage */,
+			);
 			productName = "Karmine Board";
 			productReference = AAA44CB82A4318C700F92607 /* Karmine Board.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +355,10 @@
 				Base,
 			);
 			mainGroup = AAA44CAF2A4318C700F92607;
+			packageReferences = (
+				AAA44CE62A43193300F92607 /* XCRemoteSwiftPackageReference "pandascore-api" */,
+				AA8A90822A464C63006C4804 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
 			productRefGroup = AAA44CB92A4318C700F92607 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +401,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAA44CBE2A4318C700F92607 /* ContentView.swift in Sources */,
+				AA8A908B2A464EA7006C4804 /* HomeView.swift in Sources */,
+				AA705D552A49E310002610CB /* PageInfo.swift in Sources */,
+				AAA44CF12A4347ED00F92607 /* URLSession + Client.swift in Sources */,
+				AA705D4D2A49937F002610CB /* Colors.swift in Sources */,
+				AAF7739D2B4AD61000BF95D7 /* GamesTab.swift in Sources */,
+				AA705D592A49E383002610CB /* PagingState.swift in Sources */,
+				AAA44CFB2A4486DA00F92607 /* HistoryItemView.swift in Sources */,
+				AAA44CF42A4385AA00F92607 /* Teams.swift in Sources */,
+				AA705D502A4994A0002610CB /* CalendarViewModel.swift in Sources */,
+				AAA44CF82A447C9500F92607 /* Games.swift in Sources */,
+				AA705D572A49E322002610CB /* Pageable.swift in Sources */,
+				AAF7739A2B4AD56F00BF95D7 /* MatchesViewModel.swift in Sources */,
+				AAA44CEF2A4347D400F92607 /* URLRequest + Builder.swift in Sources */,
+				AA8A908F2A464F0E006C4804 /* LinearInterpolation.swift in Sources */,
+				AA8A908D2A464EF3006C4804 /* ScrollOffset.swift in Sources */,
+				AAA44CEA2A43197A00F92607 /* HistoryViewModel.swift in Sources */,
+				AA705D522A49B410002610CB /* CalendarView.swift in Sources */,
+				AA8A90862A464DA8006C4804 /* Tab.swift in Sources */,
+				AAA44CFE2A44892F00F92607 /* Color+Ext.swift in Sources */,
+				AAA44CED2A43446800F92607 /* URLComponents + Init.swift in Sources */,
+				AAF7739F2B4AD86600BF95D7 /* GamesTabView.swift in Sources */,
+				AAA44CF62A43984400F92607 /* TeamMembers.swift in Sources */,
+				AA8A90812A46499B006C4804 /* DateStringHelper.swift in Sources */,
 				AAA44CBC2A4318C700F92607 /* Karmine_BoardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,7 +593,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -467,7 +631,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -612,6 +776,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA8A90822A464C63006C4804 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = exactVersion;
+				version = 2.1.1;
+			};
+		};
+		AAA44CE62A43193300F92607 /* XCRemoteSwiftPackageReference "pandascore-api" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MatrixSenpai/pandascore-api";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA8A90832A464C63006C4804 /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA8A90822A464C63006C4804 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+		AAA44CE72A43193300F92607 /* PandaScoreAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAA44CE62A43193300F92607 /* XCRemoteSwiftPackageReference "pandascore-api" */;
+			productName = PandaScoreAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AAA44CB02A4318C700F92607 /* Project object */;
 }

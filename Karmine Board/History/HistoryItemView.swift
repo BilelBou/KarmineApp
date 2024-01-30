@@ -6,15 +6,57 @@
 //
 
 import SwiftUI
+import CachedAsyncImage
 
 struct HistoryItemView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+    let match: Match
 
-struct HistoryItemView_Previews: PreviewProvider {
-    static var previews: some View {
-        HistoryItemView()
+    var body: some View {
+        VStack(spacing: 0) {
+            HStack {
+                Text(DateStringHelper.extractDatetimeString(from: match.scheduledAt))
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 4)
+                    .foregroundColor(Colors.clearBlue)
+                    .background(Colors.blue)
+            }
+            Rectangle()
+                .frame(height: 3)
+                .foregroundColor(Colors.blue)
+
+            HStack {
+                CachedAsyncImage(url: URL(string: match.league.imageURL ?? ""), content: { image in
+                    image.resizable()
+                        .scaledToFit()
+                }, placeholder: {
+                    ProgressView()
+                })
+                .frame(width: 44, height: 44)
+                HStack(spacing: 20) {
+                    CachedAsyncImage(url: URL(string: match.opponents.first!.opponent.imageURL ?? ""), content: { image in
+                        image.resizable()
+                            .scaledToFit()
+                    }, placeholder: {
+                        ProgressView()
+                    })
+                    .frame(width: 44, height: 44)
+                    Text("\(String(match.results.first!.score)) - \(String(match.results.last!.score))")
+                        .foregroundColor(Color.black)
+                        .fontWeight(.semibold)
+
+                    CachedAsyncImage(url: URL(string: match.opponents.last!.opponent.imageURL ?? ""), content: { image in
+                        image.resizable()
+                            .scaledToFit()
+                    }, placeholder: {
+                        ProgressView()
+                    })
+                    .frame(width: 44, height: 44)
+                }
+                .frame(maxWidth: .infinity)
+            }
+            .padding()
+            .background(Color.white)
+        }
+        .cornerRadius(20)
     }
 }

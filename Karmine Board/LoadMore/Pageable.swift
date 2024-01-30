@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+public protocol Pageable {
+    associatedtype Value: Identifiable & Hashable
+    func loadPage(after currentPage: PageInfo, size: Int) async throws -> (items: [Value], info: PageInfo)
+}
